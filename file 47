@@ -1,0 +1,6 @@
+function containsElement(arr, element) {
+  return arr.includes(element);
+}
+
+let numbers = [1, 2, 3, 4, 5];
+console.log(containsElement(numbers, 3));
